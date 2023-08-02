@@ -86,7 +86,8 @@ export default function Coins() {
   const toggleDarkAtom = () => setDarkAtom((prev) => !prev);
   const { isLoading, data } = useQuery<ICoin[]>("allCoins", fetchCoins);
   const onErrorImg = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
-    e.currentTarget.src = "/image/noImage.png";
+    e.currentTarget.src =
+      "https://shinaewoo.github.io/crypto-tracker/image/noImage.png";
   };
   return (
     <Container>
