@@ -1,4 +1,4 @@
-# Youtube clone with React
+# Crypto Tracker with React
 
 ### Tech Stack
 
